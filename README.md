@@ -21,3 +21,13 @@ There are three hardcoded GPIO pins that are crucial for operation and must be r
 | Pin 31 (GP26) | Relay 2 Output         |
 
 ![Wiring Diagram](/doc/wiring.png)
+
+
+iOS App
+=======
+
+The macOS/iOS app presents two views to the user:
+- A connecting screen that's displayed while attempting to connect to the sensor over BLE
+- A sensor status and control screen when the connection is established
+
+![iOS App Screenshot](/doc/ios_screenshot.png)
